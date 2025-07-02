@@ -6,13 +6,12 @@ public class Armstrong2 {
         int n = sc.nextInt();
         int original = n;
         int digits = String.valueOf(n).length();
-        int temp = n;
         int sum = 0;
 
-        while (temp > 0) {
-            int digit = temp % 10;
+        while (n> 0) {
+            int digit = n % 10;
             sum += Math.pow(digit, digits);
-            temp /= 10;
+            n /= 10;
         }
 
 
