@@ -7,16 +7,16 @@ public class LargestNumber {
         int p = sc.nextInt();
         int a= sc.nextInt();
 
-//        int temp =0;
-//
-//        if(n>temp){
-//            temp =n;
-//        }
-//        if(p>temp){
-//            temp = p;
-//        }
-//        System.out.println(temp);
+        int temp =0;
 
-        System.out.println(Math.max(a,Math.max(n,p)));
+        if(n>temp){
+            temp =n;
+        }
+        if(p>temp){
+            temp = p;
+        }
+        System.out.println(temp);
+
+//        System.out.println(Math.max(a,Math.max(n,p)));
     }
 }
