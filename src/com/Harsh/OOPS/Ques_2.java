@@ -2,8 +2,8 @@ package com.Harsh.OOPS;
 import java.util.*;
 public class Ques_2 {
    static class Car{
-       private int model;
-       private int year;
+       int model;
+       int year;
 
         Car(int m,int y){
             this.model =m;
