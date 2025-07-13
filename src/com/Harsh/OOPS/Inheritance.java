@@ -81,6 +81,26 @@ public class Inheritance {
 //
 //    }
 
+    //Super Keyword
+
+   static class Parent{
+        Parent(){
+            System.out.println("PArent constructor");
+        }
+    }
+   static class Child extends Parent{
+        Child(){
+            super();
+            System.out.println("CHild constructor");
+        }
+
+    }
+
+    public static void main(String[] args) {
+        Child c= new Child();
+
+    }
+
 
 }
 
