@@ -1,9 +1,6 @@
 package com.Harsh.BinarySearch;
 
 public class leetcode1095 {
-    public static void main(String[] args) {
-
-    }
 
     int search(int[] arr,int target){
         int peak=searchinMountain(arr);
