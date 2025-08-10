@@ -18,11 +18,20 @@ public class Main {
 
         }
     }
-    static int getmaxIndex(int[] arr,int start,int end){
-        int max=start;
-        for(int i=start;i<=end;i++){
-            if(arr[max]<arr[i]){
-                max=i;
+//    static int getmaxIndex(int[] arr,int start,int end){
+//        int max=start;
+//        for(int i=start;i<=end;i++){
+//            if(arr[max]<arr[i]){
+//                max=i;
+//            }
+//        }
+//        return max;
+//    }
+    static int getminIndex(int[] arr,int start,int end){
+        int min=start;
+        for(int i =start;i<=end;i++){
+            if(arr[min]>arr[i]){
+                min=i;
             }
         }
         return max;
