@@ -12,8 +12,9 @@ public class Main {
         for(int i =0;i<arr.length;i++){
             //find the max item in the remaining array and swap it with correct index
             int last=arr.length-i-1;
-            int maxIndex=getmaxIndex(arr,0,last);
-            swapArray(arr,maxIndex,last);
+            //int maxIndex=getmaxIndex(arr,0,last);
+            int minIndex= getminIndex(arr,0,last);
+            swapArray(arr,minIndex,last);
 
         }
     }
