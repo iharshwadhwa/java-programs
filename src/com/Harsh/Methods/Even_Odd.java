@@ -1,14 +1,14 @@
 package com.Harsh.Methods;
 import java.util.*;
-public class EvenOrOdd {
+public class Even_Odd {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a=sc.nextInt();
-        EveOdd(a);
+        int n = sc.nextInt();
+        Even_Odd(n);
     }
-    static void EveOdd(int n){
+    static void Even_Odd(int n){
         if(n%2==0){
-            System.out.println("Even");
+            System.out.println("even");
         }
         else{
             System.out.println("Odd");
