@@ -1,6 +1,6 @@
 package com.Harsh.OOPS.Interfaces;
 
-public class Car implements Engine,brake {
+public class Car implements Engine,Brake {
 
     int a=30;
     @Override

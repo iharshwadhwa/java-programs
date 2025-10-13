@@ -1,8 +1,8 @@
 package com.Harsh.OOPS.Acces;
 
 public class A {
-   private int num;
-    String name;
+    protected int num;
+    public String name;
     int[] arr;
 
     public int getNum() {
@@ -13,9 +13,9 @@ public class A {
         this.num = num;
     }
 
-    public A(int num, String name) {
-        this.num = num;
-        this.name = name;
+    public A(String name, int num) {
         this.arr = new int[num];
+        this.name = name;
+        this.num = num;
     }
 }

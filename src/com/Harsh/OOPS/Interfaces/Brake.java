@@ -1,5 +1,5 @@
 package com.Harsh.OOPS.Interfaces;
 
-public interface brake {
+public interface Brake {
     void brake();
 }
