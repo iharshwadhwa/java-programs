@@ -2,7 +2,7 @@ package com.Harsh.OOPS.Generics;
 
 import java.util.Arrays;
 
-public class CustomGenArrayList<T > {
+public class CustomGenArrayList<T> {
 
     private T[] data;
     private static final int DEFAULT_SIZE = 10;

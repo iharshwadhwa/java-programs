@@ -55,7 +55,7 @@ import java.util.Arrays;
         }
 
         public static void main(String[] args) {
-            Wildcard<Integer> list3 = new Wildcard<>();
+            Wildcard<Number> list3 = new Wildcard<>();
             for (int i = 0; i < 14; i++) {
                 list3.add(2 * i);
             }
