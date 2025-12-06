@@ -4,30 +4,34 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-       int [] arr={3,1,5,4,2};
-       // int[] arr={1,2,3,4,5};
+        int [] arr={3,1,5,4,2};
         bubblesort(arr);
         System.out.println(Arrays.toString(arr));
     }
+
     static void bubblesort(int[] arr){
         boolean swapped;
-        //run the steps n-1 times
+        //run the steos n-1 times
+
         for(int i =0;i<arr.length;i++){
             swapped=false;
-            //for each item,max item will come at the last respective index
-            for(int j=1;j<=arr.length-i-1;j++){  //j<arr.length-i is the same thing
+            //for each index the item will come at the last respective index
+            for(int j =1;j<arr.length-i;j++){
                 //swap if the item is smaller than the previous item
                 if(arr[j]<arr[j-1]){
-                    int temp=arr[j];
+                    //swap
+                    int temp =arr[j];
                     arr[j]=arr[j-1];
                     arr[j-1]=temp;
                     swapped=true;
                 }
             }
-            //if u didnot swap for a particular value of i it means the array is sorted hence stop the program
-            if(swapped==false){
+            //if u didn't swap for a particular value of i , it means the array is sorted hence stop the program
+
+            if(!swapped){
                 break;
             }
         }
     }
+
 }
