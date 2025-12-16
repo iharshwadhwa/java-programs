@@ -1,11 +1,19 @@
 package com.Harsh.OOPS.Generics;
 
-public class Box<T>{
-    T value;
-    void set(T value){
+public class Box <T extends Number>{
+
+    private T value;
+
+    public Box(T value){
         this.value=value;
     }
-    T get(){
+
+    public T getValue() {
         return value;
     }
+
+    public void setValue(T value) {
+        this.value = value;
+    }
+
 }

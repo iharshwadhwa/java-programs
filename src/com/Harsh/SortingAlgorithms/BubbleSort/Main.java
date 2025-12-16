@@ -11,9 +11,9 @@ public class Main {
 
     static void bubblesort(int[] arr){
         boolean swapped;
-        //run the steos n-1 times
+        //run the steps n-1 times
 
-        for(int i =0;i<arr.length;i++){
+        for(int i =0;i<arr.length-1;i++){
             swapped=false;
             //for each index the item will come at the last respective index
             for(int j =1;j<arr.length-i;j++){
